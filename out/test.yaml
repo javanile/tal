@@ -1,0 +1,7 @@
+steps:
+- id: step_0
+  name: print
+  args:
+  - '"Hello World!"'
+  type: function
+

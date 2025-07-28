@@ -1,11 +1,12 @@
-// grammar.lark - grammatica base per Tal
 
 start: statement*
 
-?statement: function_call ";"                     -> func_stmt
-          | "{" statement* "}"                   -> block_stmt
+?statement: function_call ";"         -> func_stmt
+          | "{" statement* "}"        -> block_stmt
 
 function_call: NAME "(" [arguments] ")"
+
+block: "{" statement (";" statement)* ";"? "}"
 
 arguments: argument ("," argument)*
 
