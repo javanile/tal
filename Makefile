@@ -1,4 +1,8 @@
 
+init:
+	@python3 -m venv .venv
+	@source .venv/bin/activate
+
 push:
 	@git add .
 	@git commit -am "New release!" || true
