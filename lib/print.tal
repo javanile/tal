@@ -1,0 +1,6 @@
+
+
+output = input[0]
+
+log(output)
+

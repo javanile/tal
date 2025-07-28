@@ -1,0 +1,17 @@
+
+
+import print;
+
+$env = {
+	site: "test"
+}
+
+a = 10
+b = 20
+
+print a, print b;
+
+if a > 10, { print b }, print a
+
+
+linkedin 
